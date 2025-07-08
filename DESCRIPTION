@@ -1,13 +1,13 @@
 Package: door
 Type: Package
-Title: Design of Clinical Trials with the Desirability of Outcome
+Title: Analysis of Clinical Trials with the Desirability of Outcome
         Ranking Methodology
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(
     person("Yijie", "He", email = "yih148@gwu.edu", role = c("aut", "cre")),
     person("Qihang", "Wu", email = "qihang.wu@gwu.edu", role = c("ctb")),
     person("Toshimitsu", "Hamasaki", role = c("ctb")) )
-Description: Statistical methods and related graphical representations for the Desirability of Outcome Ranking (DOOR) methodology. The DOOR is a paradigm for the design, analysis, interpretation of clinical trials and other research studies based on the patient centric benefit risk evaluation. The package provides functions for generating summary statistics from individual level/summary level datasets, conduct DOOR probability-based inference, and visualization of the results. For more details of DOOR methodology, see "Handbook of Generalized Pairwise Comparisons", Chapter 13 <doi:10.1201/9781003390855>. For more explanation of the statistical methods and the graphics, see the technical document and user manual of the DOOR 'Shiny' apps at <https://methods.bsc.gwu.edu>. 
+Description: Statistical methods and related graphical representations for the Desirability of Outcome Ranking (DOOR) methodology. The DOOR is a paradigm for the design, analysis, interpretation of clinical trials and other research studies based on the patient centric benefit risk evaluation. The package provides functions for generating summary statistics from individual level/summary level datasets, conduct DOOR probability-based inference, and visualization of the results. For more details of DOOR methodology, see Hamasaki and Evans (2025) <doi:10.1201/9781003390855>. For more explanation of the statistical methods and the graphics, see the technical document and user manual of the DOOR 'Shiny' apps at <https://methods.bsc.gwu.edu>. 
 Imports: dplyr, tidyr, ggplot2, forestplot, scales, methods, labeling
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -22,10 +22,10 @@ Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Depends: R (>= 3.5)
 NeedsCompilation: no
-Packaged: 2025-06-24 19:52:36 UTC; yijie
+Packaged: 2025-07-08 00:14:49 UTC; yijie
 Author: Yijie He [aut, cre],
   Qihang Wu [ctb],
   Toshimitsu Hamasaki [ctb]
 Maintainer: Yijie He <yih148@gwu.edu>
 Repository: CRAN
-Date/Publication: 2025-06-28 17:20:02 UTC
+Date/Publication: 2025-07-08 07:10:02 UTC
